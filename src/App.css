@@ -1,0 +1,87 @@
+/* Estilos para el header */
+
+h3 {
+  color: aliceblue;
+}
+
+/*Contenedor principal*/
+.landscapeCointainer {
+  margin: 0;
+  font-family: "Gill Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("./assets/ram_7.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+/*Header*/
+header {
+  color: white;
+  padding: 20px;
+}
+
+.headerTitle {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Formato de componente buscador*/
+.searchFilter {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.filterInput {
+  border: 1px solid #36e213;
+  border-radius: 0.5em;
+  width: 20em;
+  background: black;
+  height: 2em;
+  color: aliceblue;
+}
+
+.filterInput::placeholder {
+  color: white;
+  font-weight: bolder;
+}
+
+/*Formato de galería*/
+.characters {
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/*Formulario: Efecto de botón*/
+#buttonSearch {
+  width: 6em;
+  height: 2em;
+  margin: 0%;
+  padding: 0%;
+  border: 1.5px solid #36e213;
+  border-radius: 0.5em;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+#buttonSearch:hover {
+  border: 1.5px solid #a208db;
+}
+
+/* Estilos para el footer */
+footer {
+  background: transparent;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
